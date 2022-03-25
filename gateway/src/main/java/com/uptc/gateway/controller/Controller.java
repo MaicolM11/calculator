@@ -27,6 +27,9 @@ public class Controller {
             case "-":
                 path = "/res";
                 break;
+            case "/":
+                path = "/div";
+                break;
         }
         return doRequest(path, operation);
     }
