@@ -1,0 +1,48 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DivMicroserviceApplication<div-microservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.uptc.div.microservice.DivMicroserviceApplication",
+            "projectName": "div-microservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApplication<eureka-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.uptc.eureka.server.EurekaServerApplication",
+            "projectName": "eureka-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MtpMicroserviceApplication<mtp-microservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.uptc.mtp.microservice.MtpMicroserviceApplication",
+            "projectName": "mtp-microservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayApplication<gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.uptc.gateway.GatewayApplication",
+            "projectName": "gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

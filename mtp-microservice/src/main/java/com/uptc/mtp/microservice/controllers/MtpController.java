@@ -12,6 +12,6 @@ import com.uptc.mtp.microservice.models.Operation;
 public class MtpController {
 	 @PostMapping
 	    public double doOperation(@RequestBody Operation operation) {
-	        return operation.getNumberA() - operation.getNumberB() ;
+	        return operation.getNumberA() * operation.getNumberB() ;
 	    }
 }
