@@ -1,7 +1,7 @@
 */dist
 */target
 *.iml
-*/node_modules
+**/node_modules
 ./calculator-frontend/node_modules
 
 HELP.md
