@@ -21,6 +21,10 @@ spring:
         uri: lb://DIV-MICROSERVICE
         predicates:
         - Path=/div/**
+      - id: MTP-MICROSERVICE
+        uri: lb://MTP-MICROSERVICE
+        predicates:
+        - Path=/mtp/**
     discovery:
       enabled: true
       reactive: 
