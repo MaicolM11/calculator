@@ -24,6 +24,9 @@ public class Controller {
             case "+":
                 path = "/sum";
                 break;
+            case "-":
+                path = "/res";
+                break;
         }
         return doRequest(path, operation);
     }

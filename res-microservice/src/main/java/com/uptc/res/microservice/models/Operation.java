@@ -1,4 +1,4 @@
-package com.uptc.sum.microservice.models;
+package com.uptc.res.microservice.models;
 
 public class Operation {
     
