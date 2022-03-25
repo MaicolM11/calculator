@@ -1,14 +1,11 @@
-package com.uptc.sum.microservice;
+package com.uptc.res.microservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-
-class SumMicroserviceApplicationTests {
-
+public class ResMicroserviceApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
