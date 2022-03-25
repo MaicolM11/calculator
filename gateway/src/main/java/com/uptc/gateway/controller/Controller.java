@@ -30,6 +30,9 @@ public class Controller {
             case "/":
                 path = "/div";
                 break;
+            case "*":
+                path = "/mtp";
+                break;
         }
         return doRequest(path, operation);
     }
