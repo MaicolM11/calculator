@@ -2,7 +2,6 @@
 */target
 *.iml
 **/node_modules
-./calculator-frontend/node_modules
 
 HELP.md
 target/
