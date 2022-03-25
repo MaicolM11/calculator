@@ -21,6 +21,8 @@ export class AppComponent{
         "operation":this.operation
       }
         // Simple POST request with a JSON body and response type <any>
-        this.result = this.http.post(environment.endpointUrl, body)
+        this.http.post(environment.endpointUrl, body).subscribe(res =>{
+          this.result = res
+        })
     }
 }
